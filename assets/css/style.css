@@ -1,0 +1,476 @@
+.img-fluid {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* ===== ESTILOS GENERALES ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrado del contenedor */
+.form-container {
+    width: 400px;
+    background: #fff;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Títulos */
+.form-container h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Inputs */
+.form-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Input focus animado */
+.form-container input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76,175,80,0.4);
+}
+
+/* Botón */
+.form-container button {
+    width: 95%;
+    padding: 12px;
+    background: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-container button:hover {
+    background: #3e8e41;
+}
+
+/* Texto inferior */
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form-container a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* ======== PERFIL DE USUARIO ======== */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* Caja del perfil */
+.profile-box{
+    background:#fff;
+    width:380px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 12px rgba(0,0,0,0.1);
+    text-align:center;
+    margin:80px auto;
+    animation:fadeIn 0.5s ease;
+}
+
+/* Título */
+.profile-box h2{
+    color:#333;
+    margin-bottom:15px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+/* Datos */
+.profile-box .data p{
+    margin:6px 0;
+    font-size:15px;
+    color:#444;
+    text-align:left;
+    padding:8px 10px;
+    background:#f7f7f7;
+    border-radius:6px;
+}
+
+/* BOTONES */
+.profile-box a{
+    display:block;
+    padding:10px;
+    margin-top:12px;
+    font-size:16px;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+/* Botón verde -> Index */
+.btn-index{
+    background:#00A651;
+    color:white;
+}
+.btn-index:hover{
+    background:#008f46;
+}
+
+/* Botón rojo -> Logout */
+.btn-logout{
+    background:#E63946;
+    color:white;
+}
+.btn-logout:hover{
+    background:#c52e3a;
+}
+
+/* Animación suave */
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(10px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+
+/* ============================
+   🛒 Página Carrito
+============================ */
+.titulo-carrito{
+    font-weight: bold;
+    color:#1f8c45;
+}
+
+/* Caja principal */
+.carrito-box{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+/* Tabla */
+.tabla-carrito thead{
+    background:#1f8c45;
+    color:white;
+}
+
+.tabla-carrito td, 
+.tabla-carrito th{
+    text-align:center;
+    vertical-align:middle;
+}
+
+/* Imagen producto */
+.img-carrito{
+    width:60px;
+    border-radius:8px;
+    margin-right:10px;
+}
+
+/* Botón eliminar */
+.btn-eliminar{
+    background:#e74c3c;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.2s;
+}
+.btn-eliminar:hover{ background:#c0392b; }
+
+/* Total y acciones */
+.total-area{
+    margin-top:25px;
+    padding-top:15px;
+    border-top:2px solid #eee;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.acciones-carrito{
+    display:flex;
+    gap:10px;
+}
+
+/* Botones principales */
+.btn-vaciar, .btn-comprar{
+    padding:10px 18px;
+    border:none;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.btn-vaciar{
+    background:#333;
+    color:white;
+}
+.btn-vaciar:hover{ background:#111; }
+
+.btn-comprar{
+    background:#1f8c45;
+    color:white;
+}
+.btn-comprar:hover{ background:#176e35; }
+
+/* Responsive */
+@media(max-width:768px){
+    .tabla-carrito td img{ width:45px; }
+    .acciones-carrito{ flex-direction:column; width:100%; }
+    .btn-vaciar, .btn-comprar{ width:100%; }
+}
+
+/* ---------- ESTILO DEL CARRITO ---------- */
+
+.carrito-container{
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.carrito-container h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #0d572c; /* verde principal */
+}
+
+.carrito-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.carrito-table th{
+    background:#0d572c;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+
+.carrito-table td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+.cantidad-btn{
+    background:#0d572c;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.borrar-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.carrito-total{
+    text-align:right;
+    margin-top:20px;
+}
+
+.btn-pagar{
+    background:#0d572c;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:7px;
+    cursor:pointer;
+    font-size:17px;
+    margin-top:10px;
+}
+
+.btn-pagar:hover{
+    background:#09421f;
+}
+
+body{
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.carrito-container{
+    width: 60%;
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+    display:flex;
+    align-items:center;
+}
+
+.tabla-carrito{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabla-carrito th,
+.tabla-carrito td{
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-carrito tr:hover{
+    background:#f9f9f9;
+}
+
+.total{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.btn-pagar{
+    background: #28a745;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.btn-pagar:hover{
+    background:#218838;
+}
+
+.vacio{
+    font-size:18px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* ESTILOS PARA LA PÁGINA VER_COMPRAS.PHP  */
+/* ======================================= */
+
+/* Definición de colores Riselabs (Ajusta los códigos si son diferentes) */
+:root {
+    --color-principal: #1A5276; /* Azul/Verde oscuro */
+    --color-secundario: #212529; /* Negro/Gris muy oscuro */
+    --color-texto-claro: #f8f9fa; /* Blanco brillante */
+    --color-acento: #38c172; /* Verde vibrante para resaltar */
+}
+
+/* 1. Fondo del cuerpo de la página (Negro) */
+.admin-body {
+    background-color: var(--color-secundario) !important;
+    color: var(--color-texto-claro); 
+    min-height: 100vh;
+}
+
+.admin-container {
+    padding-top: 50px;
+}
+
+/* 2. Título (Verde vibrante) */
+.admin-title {
+    color: var(--color-acento); 
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Línea divisoria */
+.admin-hr {
+    border-top: 1px solid var(--color-principal);
+    opacity: 0.5;
+}
+
+/* 3. Alertas (Fondo oscuro) */
+.admin-alert-info {
+    background-color: var(--color-principal) !important;
+    color: var(--color-texto-claro) !important;
+    border: 1px solid var(--color-principal) !important;
+}
+
+/* 4. Estilo de la tabla de registros */
+.admin-table {
+    /* Sobrescribe las variables de Bootstrap para el modo oscuro */
+    --bs-table-bg: #343a40; 
+    --bs-table-color: var(--color-texto-claro); 
+    border: 1px solid var(--color-principal);
+}
+
+/* 5. Encabezado de la tabla (Verde y Negro) */
+.admin-table thead tr {
+    background-color: var(--color-acento); /* Fondo del encabezado verde */
+    color: var(--color-secundario); /* Texto del encabezado en negro */
+}
+
+/* Asegurar el estilo del thead en todas las celdas */
+.admin-table thead th {
+    background-color: var(--color-acento);
+    color: var(--color-secundario);
+    border-color: var(--color-principal);
+}
+
+/* Filas Impares (Striped effect) */
+.admin-table.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: var(--color-principal) !important; /* Azul oscuro */
+}
+
+/* Filas al pasar el mouse (Hover effect) */
+.admin-table.table-hover > tbody > tr:hover > * {
+    background-color: #495057 !important; /* Un gris más claro al pasar el mouse */
+}
+
+/* 6. Estilo del botón "Volver" */
+.admin-btn-back {
+    background-color: var(--color-principal);
+    border-color: var(--color-principal);
+    color: var(--color-texto-claro);
+    padding: 8px 20px;
+    font-size: 1rem;
+}
+
+.admin-btn-back:hover {
+    background-color: #154360; 
+    border-color: #154360;
+}

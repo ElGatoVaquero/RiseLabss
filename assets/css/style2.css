@@ -1,0 +1,94 @@
+/* ======================================= */
+/* style2.css - Estilos Limpios (Amigables) */
+/* ======================================= */
+
+/* Definición de colores base */
+:root {
+    --color-fondo: #ffffff; /* Blanco limpio */
+    --color-texto-oscuro: #343a40; /* Negro casi total */
+    --color-acento-principal: #007bff; /* Azul de Bootstrap / Botón PayPal */
+    --color-acento-secundario: #f8f9fa; /* Gris muy claro para contraste */
+}
+
+/* 1. Fondo del cuerpo de la página (Blanco) */
+.admin-body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto-oscuro); 
+    min-height: 100vh;
+}
+
+/* 2. Contenedor y Título */
+.admin-title {
+    color: var(--color-texto-oscuro); 
+    border-bottom: 2px solid var(--color-acento-principal); /* Línea azul */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Línea divisoria */
+.admin-hr {
+    border-top: 1px solid var(--color-acento-principal);
+    opacity: 0.5;
+}
+
+/* 3. Alertas (Fondo suave) */
+.admin-alert-info {
+    background-color: #e2f2ff; /* Azul muy claro */
+    color: var(--color-texto-oscuro); 
+    border: 1px solid #b3d9ff; /* Borde azul */
+}
+
+/* 4. Estilo de la tabla de registros */
+.admin-table {
+    --bs-table-bg: var(--color-fondo); /* Fondo de tabla Blanco */
+    --bs-table-color: var(--color-texto-oscuro); 
+    border: 1px solid #dee2e6;
+}
+
+/* 5. Encabezado de la tabla (Gris Oscuro, estilo profesional) */
+.admin-table thead tr {
+    background-color: var(--color-texto-oscuro); 
+    color: var(--color-fondo); /* Texto blanco en encabezado oscuro */
+}
+
+/* Asegurar el estilo del thead en todas las celdas */
+.admin-table thead th {
+    background-color: var(--color-texto-oscuro);
+    color: var(--color-fondo);
+    border-color: #dee2e6;
+    font-weight: bold;
+}
+
+/* Filas Impares (Striped effect) */
+.admin-table.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: var(--color-acento-secundario) !important; /* Gris muy claro */
+}
+
+/* Filas al pasar el mouse (Hover effect) */
+.admin-table.table-hover > tbody > tr:hover > * {
+    background-color: #f0f0f0 !important; /* Un gris apenas visible al pasar el mouse */
+}
+
+/* 6. Estilo del botón "Volver" (Azul, como tu sitio) */
+.admin-btn-back {
+    background-color: var(--color-acento-principal) !important;
+    border-color: var(--color-acento-principal) !important;
+    color: var(--color-fondo) !important;
+    padding: 8px 20px;
+    font-size: 1rem;
+}
+
+.admin-btn-back:hover {
+    background-color: #0056b3 !important; /* Azul más oscuro en hover */
+    border-color: #0056b3 !important;
+}
+/* ... código CSS anterior ... */
+
+/* Contenedor principal de la página */
+.admin-container {
+    padding-top: 50px; /* Margen superior de seguridad para el contenido */
+    margin-top: 50px; /* Espacio clave para separarlo del navbar/encabezado */
+}
+
+/* ... código CSS posterior ... */

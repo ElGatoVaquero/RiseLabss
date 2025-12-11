@@ -1,0 +1,117 @@
+[
+    {
+        "id_producto": 1,
+        "cantidad": 1,
+        "fecha": "2025-12-10 23:40:46",
+        "paypal_id": "7F8305028X1208103",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "cantidad": 2,
+        "fecha": "2025-12-10 23:44:11",
+        "paypal_id": "87224680HU6353921",
+        "total": 1400
+    },
+    {
+        "id_producto": 1,
+        "cantidad": 3,
+        "fecha": "2025-12-10 23:44:58",
+        "paypal_id": "4HV336082M2475827",
+        "total": 2100
+    },
+    {
+        "id_producto": 1,
+        "cantidad": 1,
+        "fecha": "2025-12-11 00:09:28",
+        "paypal_id": "14V236656W637342E",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "cantidad": 1,
+        "fecha": "2025-12-11 00:16:41",
+        "paypal_id": "7HY186527R573264J",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 6,
+        "fecha": "2025-12-11 00:25:49",
+        "paypal_id": "7CV36822KW304933E",
+        "total": 4200
+    },
+    {
+        "id_producto": 2,
+        "nombre": null,
+        "cantidad": 2,
+        "fecha": "2025-12-11 00:27:01",
+        "paypal_id": "4R79782040343153S",
+        "total": 810
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 00:45:16",
+        "paypal_id": "5VA65477NU6430710",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:00:03",
+        "paypal_id": "4BR571156E274962G",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:01:59",
+        "paypal_id": "0LR62391UB4496922",
+        "total": 700
+    },
+    {
+        "id_producto": 3,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:05:42",
+        "paypal_id": "1BB48939JH3139312",
+        "total": 1005
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:09:17",
+        "paypal_id": "6D837816DY8835119",
+        "total": 700
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:11:37",
+        "paypal_id": "290950929K2542423",
+        "total": 700
+    },
+    {
+        "id_producto": 4,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:13:56",
+        "paypal_id": "6C8394405D362772E",
+        "total": 475
+    },
+    {
+        "id_producto": 1,
+        "nombre": null,
+        "cantidad": 1,
+        "fecha": "2025-12-11 01:14:13",
+        "paypal_id": "5T9188651H471571M",
+        "total": 700
+    }
+]
